@@ -1,0 +1,14 @@
+{
+  "start_year": 1950,
+  "end_year": 2025,
+  "baseline": [1981, 2010],
+  "west": [140, 170],
+  "east": [190, 270],
+  "latitude_half_widths": [3, 5],
+  "trend_start_years": [1950, 1979, 1993, 2000],
+  "primary_start_years": [1950, 1979],
+  "bootstrap_block_years": [3, 5, 7],
+  "primary_block_years": 5,
+  "bootstrap_draws": 5000,
+  "seed": 20260916
+}
