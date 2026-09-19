@@ -1,0 +1,58 @@
+{
+  "configuration": {
+    "start_year": 1950,
+    "end_year": 2025,
+    "baseline": [
+      1981,
+      2010
+    ],
+    "west": [
+      140,
+      170
+    ],
+    "east": [
+      190,
+      270
+    ],
+    "latitude_half_widths": [
+      3,
+      5
+    ],
+    "trend_start_years": [
+      1950,
+      1979,
+      1993,
+      2000
+    ],
+    "primary_start_years": [
+      1950,
+      1979
+    ],
+    "bootstrap_block_years": [
+      3,
+      5,
+      7
+    ],
+    "primary_block_years": 5,
+    "bootstrap_draws": 5000,
+    "seed": 20260916
+  },
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.8",
+      "xarray": "2026.7.0",
+      "netCDF4": "1.7.4",
+      "requests": "2.34.2",
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0",
+      "ipykernel": "7.3.0"
+    }
+  },
+  "input_sha256": {
+    "ERSSTv5": "aded7fdff16d6adbf42d11e594d74428218e6aed3ca9e61d18dcdb94743a813b",
+    "COBE-SST2": "5a7d13f857ba3d80900933189886b975bfe2268162e3ef3d6a57b1b7d05a025b"
+  }
+}
