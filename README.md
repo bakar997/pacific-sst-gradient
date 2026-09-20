@@ -4,7 +4,7 @@ A reproducible Python analysis of the temperature contrast between the western a
 
 **Question:** How has the west-minus-east sea-surface temperature (SST) contrast changed, and how sensitive is its linear trend to the observational product, analysis period, latitude band and treatment of temporal dependence?
 
-This is a focused observational portfolio project. It demonstrates NetCDF handling, native-grid area averaging, temporal aggregation, trend estimation, reproducibility and scientific interpretation. It does not perform climate-model attribution or reproduce an entire published study.
+This is a focused observational analysis. It demonstrates NetCDF handling, native-grid area averaging, temporal aggregation, trend estimation, reproducibility and scientific interpretation. It does not perform climate-model attribution or reproduce an entire published study.
 
 ![Regional SST anomalies and temperature contrast](figures/02_time_series.png)
 
@@ -85,7 +85,7 @@ The published box definition is drawn from Byrne, Seager and Smerdon, *Nature Co
 
 ERSSTv5 is deliberately retained for comparability with that literature; it is **not the latest ERSST release**. Adding ERSSTv6, an additional product, wind stress or upper-ocean diagnostics would be useful extensions. Such extensions have not been performed here.
 
-No affiliation with or endorsement by UiB, NOAA or JMA is implied.
+
 
 ## Author and contribution
 
