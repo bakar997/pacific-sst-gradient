@@ -57,7 +57,7 @@ python scripts/run_analysis.py
 python scripts/execute_notebook.py
 ```
 
-The notebook was executed in this build with `python scripts/execute_notebook.py --in-process`, using IPython because kernel sockets are unavailable in the build environment. The same option is available if your environment restricts local sockets; on a normal computer, the command above launches a Jupyter kernel. Both modes execute the actual code cells.
+The saved notebook outputs were regenerated with `python scripts/execute_notebook.py`, which launches a Jupyter kernel in the active Python environment. If your environment restricts local sockets, `python scripts/execute_notebook.py --in-process` is also available. Both modes execute the actual code cells.
 
 The first data command **verifies the included snapshot** using SHA-256 checksums; it requires no network. The roughly 9 MB of NetCDF subsets are intentionally included so the results remain reproducible if live provider files change. Analysis after dependency installation runs offline.
 
@@ -86,6 +86,12 @@ The published box definition is drawn from Byrne, Seager and Smerdon, *Nature Co
 ERSSTv5 is deliberately retained for comparability with that literature; it is **not the latest ERSST release**. Adding ERSSTv6, an additional product, wind stress or upper-ocean diagnostics would be useful extensions. Such extensions have not been performed here.
 
 No affiliation with or endorsement by UiB, NOAA or JMA is implied.
+
+## Author and contribution
+
+**Muhammad Abubakar**
+
+I developed this project to investigate changes in the tropical Pacific west-minus-east SST contrast. I implemented the data-processing and analysis workflow, conducted the sensitivity checks, and prepared the figures and documentation. The analysis uses publicly available SST reconstructions; the data providers and relevant scientific literature are credited below.
 
 ## Data acknowledgment and license
 

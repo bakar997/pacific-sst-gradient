@@ -147,7 +147,7 @@ def main():
         ax.grid(axis="x", alpha=.2)
     axes[0].invert_yaxis()
     axes[0].legend(frameon=False)
-    fig.supxlabel("Prespecified period and latitude sensitivity | 95% intervals, 5-year blocks\nShorter periods are particularly sensitive to variability and endpoint choices.", fontsize=9)
+    fig.supxlabel("Period and latitude sensitivity | 95% intervals, 5-year blocks\nShorter periods are particularly sensitive to variability and endpoint choices.", fontsize=9)
     save(fig, "04_sensitivity")
 
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.5), sharey=True, layout="constrained")

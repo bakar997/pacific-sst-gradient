@@ -65,7 +65,7 @@ This approach still depends on assumptions about residual behaviour and block le
 
 ## 5. Read the results before telling a story
 
-Start with coverage checks. Then inspect western and eastern temperatures separately, because the same contrast trend can arise through different regional changes. Read the annual index plot alongside its fitted slope and interval. Compare both datasets, both latitude widths, and all prespecified periods. State disagreement as well as agreement.
+Start with coverage checks. Then inspect western and eastern temperatures separately, because the same contrast trend can arise through different regional changes. Read the annual index plot alongside its fitted slope and interval. Compare both datasets, both latitude widths, and all configured periods. State disagreement as well as agreement.
 
 Avoid translating a temperature contrast directly into a claim about atmospheric circulation or human influence. Those questions need additional evidence. Insert numerical findings only after reproducing the actual outputs.
 

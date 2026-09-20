@@ -2,7 +2,7 @@
 
 ## Question and scope
 
-Estimate descriptive linear changes in the equatorial Pacific west-minus-east SST contrast. Compare two reconstructions, two latitude widths, four periods and three bootstrap block lengths. All choices in `config.json` were set before computing trend results for this project. This is not a preregistered study.
+Estimate descriptive linear changes in the equatorial Pacific west-minus-east SST contrast. Compare two reconstructions, two latitude widths, four periods and three bootstrap block lengths. Analysis settings are recorded in `config.json`, and the reported sensitivity checks examine the effects of alternative analysis periods, latitude bands and bootstrap block lengths. This is not a preregistered study.
 
 The geographical boxes follow the index used by Byrne, Seager and Smerdon ([2026, Nature Communications 17, 142](https://doi.org/10.1038/s41467-025-66839-w); published online in December 2025). That study considers observations and climate-model ensembles. Here the scientific scope is limited to observational indices and sensitivity checks. The approach is inspired by its index, not a claim to reproduce its full analysis.
 

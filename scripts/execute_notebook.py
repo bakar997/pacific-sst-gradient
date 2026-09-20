@@ -69,5 +69,7 @@ with tempfile.TemporaryDirectory() as directory:
         else:
             os.environ["JUPYTER_PATH"] = previous
 notebook.metadata["kernelspec"] = {"display_name": "Python 3", "language": "python", "name": "python3"}
+notebook.metadata["execution_method"] = "Jupyter kernel execution (nbclient)"
+notebook.metadata["language_info"]["version"] = sys.version.split()[0]
 nbformat.write(notebook, path)
 print("Executed notebooks/pacific_sst_gradient.ipynb successfully.")
